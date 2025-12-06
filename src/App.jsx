@@ -49,6 +49,7 @@ const App = () => {
       
       <div className='relative'>
          <Navbar isContentVisible={isContentVisible}/>
+         <ReactLenis root>
       <Hero isContentVisible={isContentVisible} />
  
       <Icando/>
@@ -57,6 +58,7 @@ const App = () => {
       <Awards/>
 
       <Testimonials2/>
+      </ReactLenis>
      
       
       </div>
