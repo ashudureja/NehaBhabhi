@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --main: #eeeef3;
+  --shadow-brand: -82px 54px 27px 0px rgba(0,0,0,0.01),
+  -52px 35px 25px 0px rgba(0,0,0,0.04),
+  -29px 19px 21px 0px rgba(0,0,0,0.15),
+  -13px 9px 16px 0px rgba(0,0,0,0.25),
+  -3px 2px 9px 0px rgba(0,0,0,0.29);
+  --shadow-lime:-82px 54px 27px 0px rgba(224 ,224 ,235, 0.1),
+  -52px 35px 25px 0px rgba(224 ,224 ,235, 0.4),
+  -29px 19px 21px 0px rgba(224 ,224 ,235, 0.15),
+  -13px 9px 16px 0px rgba(224 ,224 ,235, 0.25),
+  -3px 2px 9px 0px rgba(224 ,224 ,235, 0.29);
+  
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-main: var(--main);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-manrope);
+  --shadow-brand: var(--shadow-brand);
+  --shadow-lime: var(--shadow-lime)
+}
+
+@font-face {
+  font-family: 'f1';
+  font-weight: 400;
+  src: url('/font1.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'f2';
+  font-weight: 400;
+  src: url('/font2.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'f3';
+  font-weight: 400;
+  src: url('/font3.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'f4';
+  font-weight: 400;
+  src: url('/font4.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'f5';
+  font-weight: 400;
+  src: url('/font5.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'f6';
+  font-weight: 400;
+  src: url('/font6.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'f7';
+  font-weight: 400;
+  src: url('/font7.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'f8';
+  font-weight: 400;
+  src: url('/font8.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'f9';
+  font-weight: 400;
+  src: url('/font9.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'signature';
+  font-weight: 100;
+  src: url('/Signature.otf') format('opentype');
+}
+.light {
+filter: blur(2rem);
+mix-blend-mode: color;
+}
+
+.framer-17607ts {
+  z-index: 0;
+  flex: none;
+  height: 288px;
+  position: absolute;
+  bottom: 363px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+
+.shadow-css{
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
